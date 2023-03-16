@@ -8,8 +8,11 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
+  reactQuery,
   redux,
   tailwind,
+  storybook,
   nodejs,
   mongodb,
   git,
@@ -20,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  roka,
 } from "@assets/index";
 
 export const navLinks = [
@@ -62,11 +66,19 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Next.js",
+    icon: nextjs,
+  },
+  {
+    name: "React Query",
+    icon: reactQuery,
+  },
+  {
+    name: "Redux",
     icon: redux,
   },
   {
@@ -74,12 +86,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Storybook",
+    icon: storybook,
   },
   {
     name: "Three JS",
@@ -88,14 +96,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -150,16 +150,15 @@ const experiences: Experience[] = [
   //   ],
   // },
   {
-    title: "Frontend Developer",
-    company_name: "Ticketplace",
-    icon: youha,
-    iconBg: "#E6DEDD",
-    date: "April 2021 - Present",
+    title: "Mortar Gunner",
+    company_name: "Republic of Korea Army",
+    icon: roka,
+    iconBg: "#383E56",
+    date: "January 2015 - October 2016",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a squad leader of 4.2 inch mortar squad, took care of squad members during training as well as daily life and developed communication skills.",
+      "Mastered military skills including marksmanship, map reading and firing mortar.",
+      "Discharged as a sergeant after 21 months of military service.",
     ],
   },
   {
@@ -169,33 +168,7 @@ const experiences: Experience[] = [
     iconBg: "#E6DEDD",
     date: "April 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Ticketplace",
-    icon: youha,
-    iconBg: "#E6DEDD",
-    date: "April 2021 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Ticketplace",
-    icon: youha,
-    iconBg: "#E6DEDD",
-    date: "April 2021 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Next.js and TypeScript.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",

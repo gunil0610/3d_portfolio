@@ -16,12 +16,16 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.svg";
+import reactQuery from "./tech/reactQuery.svg";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import storybook from "./tech/storybook.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import youha from "./company/youha.png";
+import roka from "./company/roka.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -45,12 +49,16 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
+  reactQuery,
   redux,
   tailwind,
   typescript,
+  storybook,
   threejs,
   carrent,
   jobit,
   tripguide,
   youha,
+  roka,
 };
