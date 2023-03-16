@@ -1,10 +1,12 @@
+import { Variants } from "framer-motion";
+
 // TODO: configure type later again
 type HiddenDirection = string;
 type TransitionType = string;
 type TransitionDelay = number;
 type TransitionDuration = number;
 
-export const textVariant = (delay: TransitionDelay) => {
+export const textVariant = (delay?: TransitionDelay): Variants => {
   return {
     hidden: {
       y: -50,
@@ -23,11 +25,11 @@ export const textVariant = (delay: TransitionDelay) => {
 };
 
 export const fadeIn = (
-  direction: HiddenDirection,
-  type: TransitionType,
-  delay: TransitionDelay,
-  duration: TransitionDuration
-) => {
+  direction?: HiddenDirection,
+  type?: TransitionType,
+  delay?: TransitionDelay,
+  duration?: TransitionDuration
+): Variants => {
   return {
     hidden: {
       x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
@@ -49,9 +51,9 @@ export const fadeIn = (
 };
 
 export const zoomIn = (
-  delay: TransitionDelay,
-  duration: TransitionDuration
-) => {
+  delay?: TransitionDelay,
+  duration?: TransitionDuration
+): Variants => {
   return {
     hidden: {
       scale: 0,
@@ -71,11 +73,11 @@ export const zoomIn = (
 };
 
 export const slideIn = (
-  direction: HiddenDirection,
-  type: TransitionType,
-  delay: TransitionDelay,
-  duration: TransitionDuration
-) => {
+  direction?: HiddenDirection,
+  type?: TransitionType,
+  delay?: TransitionDelay,
+  duration?: TransitionDuration
+): Variants => {
   return {
     hidden: {
       x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
@@ -95,9 +97,9 @@ export const slideIn = (
 };
 
 export const staggerContainer = (
-  staggerChildren: string,
-  delayChildren: number
-) => {
+  staggerChildren?: number,
+  delayChildren?: number
+): Variants => {
   return {
     hidden: {},
     show: {
