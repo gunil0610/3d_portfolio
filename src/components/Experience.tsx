@@ -9,6 +9,7 @@ import { styles } from "@src/styles";
 import { Experience, experiences } from "@src/constants";
 import { SectionWrapper } from "@src/hoc";
 import { textVariant } from "@src/utils/motion";
+import SectionHeader from "./SectionHeader";
 
 interface ExperienceCardProps {
   experience: Experience;
@@ -52,10 +53,10 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => (
 const ExperienceSection = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
-      </motion.div>
+      <SectionHeader
+        headText="Work Experience."
+        subText="What I have done so far"
+      />
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

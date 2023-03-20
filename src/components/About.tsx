@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "@utils/motion";
 import { SectionWrapper } from "@src/hoc";
+import SectionHeader from "./SectionHeader";
 
 interface ServiceCardProps {
   index: number;
@@ -39,10 +40,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+      <SectionHeader headText="Overview." subText="Introduction" />
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
