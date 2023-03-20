@@ -144,7 +144,7 @@ const projects: Project[] = [
       "Web-based platform that allows users to search about youtubers information and make things easier for advertiser and youtubers to send and receive commercial proposals.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
