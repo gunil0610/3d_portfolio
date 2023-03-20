@@ -27,9 +27,7 @@ import threejs from "./tech/threejs.svg";
 import youha from "./company/youha.png";
 import roka from "./company/roka.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import youha_web from "./YOUHA_WEB.png";
 
 export {
   logo,
@@ -56,9 +54,7 @@ export {
   typescript,
   storybook,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  youha_web,
   youha,
   roka,
 };
