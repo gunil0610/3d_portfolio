@@ -203,7 +203,15 @@ const testimonials = [
   },
 ];
 
-const projects = [
+export interface Project {
+  name: string;
+  description: string;
+  tags: { name: string; color: string }[];
+  image: string;
+  source_code_link: string;
+}
+
+const projects: Project[] = [
   {
     name: "Car Rent",
     description:
