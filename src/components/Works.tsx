@@ -17,6 +17,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   tags,
   image,
   source_code_link,
+  linkImage = github,
+  linkAlt = "github",
   index,
 }) => (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -39,8 +41,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
             <img
-              src={github}
-              alt="github"
+              src={linkImage}
+              alt={linkAlt}
               className="w-1/2 h-1/2 object-contain"
             />
           </div>
